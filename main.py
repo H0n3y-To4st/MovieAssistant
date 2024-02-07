@@ -48,3 +48,7 @@ def get_movie_by_index():
 
     for key, value in selected_movie.items():
         print("{}: {}".format(key,value))
+
+if __name__ == "__main__":
+  load_movies_data()
+  get_movie_by_index()
